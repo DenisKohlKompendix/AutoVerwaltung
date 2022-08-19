@@ -13,6 +13,9 @@ namespace AutoVerwaltung
         public Auto(string hersteller, double geschwindigkeit,  double zuladung) : base(hersteller, geschwindigkeit, 5, zuladung, new LoggerFactory())
         {
             this.type = "Auto";
+
+
+
         }
     }
 }

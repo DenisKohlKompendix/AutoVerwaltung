@@ -40,6 +40,9 @@ namespace AutoVerwaltung
         }
         public void dumpStatus() {
             foreach (Vergabe v in vergabeList) {
+                /*
+                 * Das gibt mir den status der verleihe aus.
+                 */
                 Console.WriteLine(String.Format("Nutzer: {0} Fahrzeug: {1}", v.fahrer, v.fahrzeuge.toString()));
             }
         
